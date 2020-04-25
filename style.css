@@ -1,0 +1,123 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+li{
+    list-style: none;
+}
+*{
+    color:#b8b8b8;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+}
+body{
+    background-image: url("top.jpg");
+    background-attachment: fixed;
+}
+header{
+    height:800px;
+    position:relative;
+}
+.header-inner{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%,-50%);/*これで上下左右の中央に。*/
+    transform:translate(-50%,-50%);
+    width:650px;
+    height:170px;
+    background:rgba(1,1,1,0.1)
+}
+.header-top{
+    height:100px;
+    line-height: 95px;
+}
+header h1{
+    float:left;
+    font-size:60px;
+    
+}
+header h2{
+    float:right;
+}
+.header-list{
+    line-height:70px;
+}
+.hh{
+    border-bottom:solid thin gray;
+    border-top:solid thin gray;
+    
+}
+header a{
+    font-size:20px;
+    margin-left:10px;
+    border-bottom:solid thin gray;
+    padding-bottom:24px;
+}
+.main-parent{
+ height:800px;
+ background: rgba(0,0,0, 0.6);
+}
+.main-child{
+    width:400px;
+    margin:0 auto;
+    padding-top:100px
+}
+.about-img{
+    height:400px;
+    width:300px;
+    display:block;
+    margin:0 auto;/*画像のセンタリング*/
+    margin-top:5px;
+}
+.img-title{
+    margin-top:10px;
+    text-align:center;
+    font-size:13px
+}
+.vision-img{
+    height:400px;
+    width:300px;
+    display:block;
+    margin:0 auto;
+    margin-top:5px;
+}
+/*ここから年表*/
+.numbers{
+    float:left;
+}
+.sentences{
+    width:340px;
+    float:right;
+}
+.hobby-content span{
+    font-weight: bold;
+}
+.contact-content h5{
+    margin-top:5px;
+}
+.contact-content a{
+    text-decoration: underline;
+}
+.space{
+    height:300px
+}
+
+footer{
+    height:50px;
+    background:rgba(34,34,34,0.95);
+}
+.footer-list{
+    float:right;
+    height:50px;
+    line-height: 50px;
+}
+.footer-list a{
+    margin-right:10px;
+}
